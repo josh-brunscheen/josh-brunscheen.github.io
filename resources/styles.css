@@ -1,0 +1,121 @@
+body {
+    font-family: 'Pathway Extreme', sans-serif;
+    background-color: #FEEFE5;
+    color: #AC7B84;
+    overflow: scroll;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+}
+
+#logo {
+    width: 75px;
+    height: 156px;
+    margin: auto;
+}
+
+img.shadow {
+    width: 378px;
+    height: 504px;
+    display: block;
+    margin: auto;
+    box-shadow: 10px 10px 0px #061826;
+    transition: box-shadow .3s ease-out;
+}
+
+img.shadow:hover {
+    box-shadow: 15px 15px 0px #061826; 
+}
+
+h1 {
+    margin: auto;
+    margin-top: 10px;
+    font-size: 60px;
+}
+
+h2 {
+    width: 100%;
+    margin-top: 20px;
+    font-size: 40px;
+}
+
+p {
+    width: 100%;
+    margin-top: 20px;
+}
+
+hr {
+    width: 100%;
+    border: 10px solid #506C64;
+    margin-top: 20px;
+}
+
+div {
+    background-color: #506C64;
+    box-shadow: 10px 10px 0px #061826;
+    transition: box-shadow .3s ease-out;
+    margin-top: 20px;
+}
+
+div:hover {
+    box-shadow: 15px 15px 0px #061826; 
+}
+
+.info {
+    width: 100%;
+    height: 100px;
+    margin: auto;
+    color:#FEEFE5;
+}
+
+#nav {
+    width: 100%;
+    height: 50px;
+}
+
+#design {
+    display: block;
+    margin: auto;
+}
+
+ul {
+    text-align: center;
+}
+
+li {
+    display: inline;
+    color:#FEEFE5;
+    font-size: 30px;
+}
+
+li:not(:first-child):before {
+    content: " | ";
+}
+
+@media only screen and (min-width: 600px) {
+    h2 {
+        width: 50%;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    p {
+        width: 50%;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    .info{
+        width: 50%;
+    }
+}
+
+::selection {
+    background:#AC7B84;
+    color:#FEEFE5;
+}
