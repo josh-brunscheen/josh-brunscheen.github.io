@@ -1,3 +1,4 @@
 # josh-brunscheen.github.io
-Testing
-Readme for website
+Check out my portfolio!
+
+Feel free to look at my other projects on GitHub as well!
