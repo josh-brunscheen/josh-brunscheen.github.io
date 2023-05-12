@@ -109,6 +109,7 @@ a.resumePage {
     justify-content: space-between;
 }
 
+//Keyframes
 @keyframes slideUp {
     0% {
         opacity: 0;
