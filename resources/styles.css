@@ -51,6 +51,8 @@ a {
 }
 
 h1.resumePage {
+    text-decoration: underline;
+    text-decoration-color: var(--pink);
     text-align: left;
     animation: slideUp 1.5s 1s ease-out forwards;
 }
@@ -95,12 +97,21 @@ a.resumePage {
     margin-right: 0%;
 }
 
-#resume {
-    opacity: 0;
-    animation: slideLeft 1s 0s ease-out forwards;
+.center {
+    width: 100%;
+    margin-top: 50px;
+    font-size: 50px;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    margin-right: 0px;
 }
 
-#container {
+.contact {
+    overflow-y: hidden;
+}
+
+.container {
     margin-left: 75px;
     margin-top: 50px;
     margin-right: 75px;
@@ -109,7 +120,23 @@ a.resumePage {
     justify-content: space-between;
 }
 
-//Keyframes
+.left {
+    animation: slideLeft 1s ease-out forwards;
+}
+
+.right {
+    animation: slideRight 1s ease-out forwards;
+}
+
+#resume {
+    opacity: 0;
+    animation: slideLeft 1s 0s ease-out forwards;
+}
+
+.verticallyCentered {
+    margin-top: 10%;
+}
+
 @keyframes slideUp {
     0% {
         opacity: 0;
@@ -173,7 +200,7 @@ a.resumePage {
         opacity: 1;
     }
 }
-
+  
 ::selection {
     background-color: var(--pink);
 }
