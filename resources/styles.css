@@ -166,7 +166,7 @@ a.resumePage {
     }
     100% {
         opacity: 1;
-        transform: translateY(900%);
+        transform: translateY(250%);
     }
 }
 
