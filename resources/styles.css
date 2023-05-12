@@ -10,6 +10,7 @@ body {
     background-color: var(--blue);
     color: var(--white);
     height: 100%;
+    overflow-x: hidden;
     font-family: 'Kanit', sans-serif;
 }
 
