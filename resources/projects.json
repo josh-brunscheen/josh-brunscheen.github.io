@@ -1,0 +1,21 @@
+{
+    "projects": [
+       {
+          "name": "Gracie's Hanger",
+          "year": "2023",
+          "caption": "Brand website for small consignment business.",
+          "link": "https://gracieshanger.github.io/"
+       },
+       {
+          "name": "Windows Dynamic Wallpaper",
+          "year": "2022",
+          "caption": "Checkout my resume!",
+          "link": "lab2/lab2.html"
+       },
+       {
+         "name":"Lab 10",
+         "caption": "Production",
+         "link": "lab10/lab10.html"
+       }
+    ]
+ }
