@@ -40,6 +40,11 @@ div.links {
     margin: auto;
 }
 
+div.allProjects {
+    width: 90%;
+    height: 10000px;
+}
+
 a {
     font-size: 60px;
     color: var(--lightGreen);
@@ -48,6 +53,29 @@ a {
     margin-top: 20px;
     margin-right: 100%;
     text-decoration: none;
+}
+
+a.project {
+    height: 500px;
+    width: 95%;
+    margin-top: 50px;
+    opacity: 0;
+    animation: slideRight 1s ease-out forwards;
+}
+
+div.line {
+    width: 95%;
+    height: 20px;
+    margin-top: 69.5px;
+    background-color: var(--white);
+}
+
+div.rounded {
+    width: 500px;
+    height: 100%;
+    float: right;
+    border-radius: 15px;
+    background-color: var(--white);
 }
 
 h1.resumePage {
