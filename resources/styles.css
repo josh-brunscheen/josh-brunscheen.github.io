@@ -58,7 +58,7 @@ a {
 a.project {
     margin-left: 100px;
     color: var(--pink);
-    height: 500px;
+    height: auto;
     width: 650px;
     display: block;
     margin-top: 20px;
@@ -68,10 +68,8 @@ a.project {
 
 div.rounded {
     width: 650px;
-    height: 300px;
     padding: 20px;
     overflow-wrap: break-word;
-    overflow: auto;
     font-size: 25px;
     text-align: left;
     border-radius: 15px;
@@ -83,6 +81,7 @@ div.rounded {
 
 a.project.r {
     margin-left: 750px;
+    animation: slideLeft 1s 1s ease-out forwards;
 }
 
 h1.resumePage {

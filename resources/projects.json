@@ -3,20 +3,20 @@
        {
           "name": "Gracie's Hanger",
           "year": "2023",
-          "caption": "Brand website for small consignment business.",
+          "caption": "Brand website for small clothes consignment business. <br><br> Helped a small business owner build a website that serves as a spot for other small reselling businesses to get advice. Also established a place for all of the owner's socials and online shop links.",
           "link": "https://gracieshanger.github.io/"
        },
        {
           "name": "Windows Dynamic Wallpaper",
           "year": "2022",
-          "caption": "Checkout my resume!",
-          "link": "lab2/lab2.html"
+          "caption": "Small personal Python project. <br><br> Using Python to access the settings for Windows users, created an application that continuously updates the wallpaper to current data (i.e. the weather, any notes written in given files, and custom emojis). Data for the weather was used from the OpenWeather API. Also utilizes the PIL library for image creation and manipulation for the walpaper.",
+          "link": "https://github.com/josh-brunscheen/dynamic-laptop-wallpaper"
        },
        {
-         "name":"Testing",
-         "year": "2000",
-         "caption": "Production",
-         "link": "lab10/lab10.html"
+         "name":"WordGame",
+         "year": "2022",
+         "caption": "Class project for Minds and Machines and RPI. <br><br> In a group with two other students, worked on a Python word game designed to 'think like a human', instead of using pure brute force. Collaborated through GitHub and used a downloaded word database. (Link unavailable as code from class cannot be shared. Contact me for more information.)",
+         "link": "javascript:void(0)"
        }
     ]
  }

@@ -8,6 +8,7 @@ $(document).ready(function() {
         var count = 0;
         $.each(responseData.projects, function(i, project) {
           output += '<a class="project';
+          
           if (count%2 === 0) {
             output += '"';
           } else {
