@@ -5,10 +5,18 @@ $(document).ready(function() {
       dataType: "json",
       success: function(responseData, status){
         var output = " ";  
+        var count = 0;
         $.each(responseData.projects, function(i, project) {
-          output += '<div class="project"><a href="' + project.link + '">' + project.name + '</a>';
-          output += '<p>' + project.caption + '</p>';
-          output += '</div>';
+          output += '<a class="project';
+          if (count%2 === 0) {
+            output += '"';
+          } else {
+            output += ' r"';
+          }
+
+          count++;
+          
+          output += 'href="' + project.link + '">' + project.name + '<div class="rounded">' + project.caption + '<br><br>' + project.year + '</div></a>';
         });
         $('#allProjects').html(output);
       }, error: function(msg) {
@@ -17,4 +25,3 @@ $(document).ready(function() {
       }
     });
   });
-  

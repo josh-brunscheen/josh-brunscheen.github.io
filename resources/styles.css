@@ -56,26 +56,33 @@ a {
 }
 
 a.project {
+    margin-left: 100px;
+    color: var(--pink);
     height: 500px;
-    width: 95%;
-    margin-top: 50px;
+    width: 650px;
+    display: block;
+    margin-top: 20px;
     opacity: 0;
-    animation: slideRight 1s ease-out forwards;
-}
-
-div.line {
-    width: 95%;
-    height: 20px;
-    margin-top: 69.5px;
-    background-color: var(--white);
+    animation: slideRight 1s 1s ease-out forwards;
 }
 
 div.rounded {
-    width: 500px;
-    height: 100%;
-    float: right;
+    width: 650px;
+    height: 300px;
+    padding: 20px;
+    overflow-wrap: break-word;
+    overflow: auto;
+    font-size: 25px;
+    text-align: left;
     border-radius: 15px;
     background-color: var(--white);
+    color: var(--lightGreen);
+    opacity: 0;
+    animation: slideRight 1s 1s ease-out forwards;
+}
+
+a.project.r {
+    margin-left: 750px;
 }
 
 h1.resumePage {
@@ -86,6 +93,12 @@ h1.resumePage {
 }
 
 h1.contactPage {
+    text-decoration: underline;
+    text-decoration-color: var(--pink);
+    animation: slideUp 1s ease-out forwards;
+}
+
+h1.projectsPage {
     text-decoration: underline;
     text-decoration-color: var(--pink);
     animation: slideUp 1s ease-out forwards;
