@@ -91,13 +91,7 @@ h1.resumePage {
     animation: slideUp 1s 1.5s ease-out forwards;
 }
 
-h1.contactPage {
-    text-decoration: underline;
-    text-decoration-color: var(--pink);
-    animation: slideUp 1s ease-out forwards;
-}
-
-h1.projectsPage {
+h1.underline {
     text-decoration: underline;
     text-decoration-color: var(--pink);
     animation: slideUp 1s ease-out forwards;
@@ -126,6 +120,14 @@ h1.projectsPage {
 .fifth {
     opacity: 0;
     animation: fadeIn 1s 3.8s ease-out forwards;
+}
+
+.bio {
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+    opacity: 0;
+    animation: slideUp 1s 1s ease-out forwards;
 }
 
 hr.bottom {
