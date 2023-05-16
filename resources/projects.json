@@ -7,18 +7,6 @@
           "link": "https://gracieshanger.github.io/"
        },
        {
-          "name": "Distance Field Calculator",
-          "year": "2023",
-          "caption": "For a Data Structures project in C++, created a distance field calculating program. <br><br> Given a black and white image, developed an efficient program designed to calculate the closest distance any given white pixel was to a black pixel. Optimization for this project focused on using a priortiy queue to contain pixels. (Code from class is not to be shared online. Contact me for more information.)",
-          "link": "javascript:void(0)"
-       },
-       {
-          "name": "Hockey Game Statistic Organizer",
-          "year": "2023",
-          "caption": "Organized 7500+ rows of hockey game data for a Data Structures project using C++. <br><br> Utilizing object oriented programming and information architecture, created an algorithm that sorts a given database of hockey games based on specific commands (i.e. by players, by teams, or by penalties). (Code from class is not to be shared online. Contact me for more information.)",
-          "link": "javascript:void(0)"
-       },
-       {
           "name": "Windows Dynamic Wallpaper",
           "year": "2022",
           "caption": "Small personal Python project. <br><br> Using Python to access the settings for Windows users, created an application that continuously updates the wallpaper to current data (i.e. the weather, any notes written in given files, and custom emojis). Data for the weather was used from the OpenWeather API. Also utilizes the PIL library for image creation and manipulation for the walpaper.",
