@@ -145,6 +145,15 @@ a.resumePage {
     margin-right: 0%;
 }
 
+img {
+    border-radius: 15px;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    opacity: 0;
+    animation: slideRight 1s ease-out forwards;
+}
+
 .center {
     opacity: 0;
     width: 100%;
