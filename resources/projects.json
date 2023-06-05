@@ -21,7 +21,7 @@
        {
           "name": "Windows Dynamic Wallpaper",
           "year": "2022",
-          "caption": "Small personal Python project. <br><br> Using Python to access the settings for Windows users, created an application that continuously updates the wallpaper to current data (i.e. the weather, any notes written in given files, and custom emojis). Data for the weather was used from the OpenWeather API. Also utilizes the PIL library for image creation and manipulation for the walpaper.",
+          "caption": "Small personal Python project. <br><br> Using Python to access the settings for Windows users, created an application that continuously updates the wallpaper to current data (i.e. the weather, any notes written in given files, and custom emojis). Data for the weather was used from the OpenWeather API. Also utilizes the PIL library for image creation and manipulation for the wallpaper.",
           "link": "https://github.com/josh-brunscheen/dynamic-laptop-wallpaper"
        },
        {
