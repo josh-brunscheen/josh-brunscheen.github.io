@@ -9,7 +9,7 @@
        {
           "name": "Distance Field Calculator",
           "year": "2023",
-          "caption": "For a Data Structures project in C++, created a distance field calculating program. <br><br> Given a black and white image, developed an efficient program designed to calculate the closest distance any given white pixel was to a black pixel. Optimization for this project focused on using a priortiy queue to contain pixels. (Code from class is not to be shared online. Contact me for more information.)",
+          "caption": "For a Data Structures project in C++, created a distance field calculating program. <br><br> Given a black and white image, developed an efficient program designed to calculate the closest distance any given white pixel was to a black pixel. Optimization for this project focused on using a priority queue to contain pixels. (Code from class is not to be shared online. Contact me for more information.)",
           "link": "javascript:void(0)"
        },
        { 
